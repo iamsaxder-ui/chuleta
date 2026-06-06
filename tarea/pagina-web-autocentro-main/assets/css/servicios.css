@@ -1,0 +1,19 @@
+/* Services */
+.iconos-servicio { 
+    display: flex; 
+    align-items: flex-start; 
+    gap: 15px; 
+    margin-bottom: 20px; }
+
+.iconos-servicio h4 { 
+    margin: 0; 
+    font-size: 0.9rem; }
+
+.iconos-servicio p { 
+    font-size: 0.75rem; 
+    color: #666; 
+    margin: 5px 0; }
+
+.azul { 
+    color: var(--primary-blue); 
+    font-size: 1.5rem; }

@@ -1,0 +1,116 @@
+
+
+.button{
+    width: 250px;
+    padding: 15px;
+    background-color: violet;
+    border-radius: 5px;
+    color: white;
+    transition:
+     width 2s,
+    height 4s,
+    background-color 2s;}
+
+   .button:hover{
+    background-color: blue;
+   }
+
+.box{
+    
+   
+    animation: box;
+    animation-duration: 1s;
+    position: relative;
+    animation-iteration-count: infinite;
+    margin: 50px;
+    color: red;
+    
+}
+
+
+@keyframes box{
+  
+    0%{
+        left: 0px; top: 0px;
+    }
+    100%{
+        left: 200px; top: 0px;
+    }
+   
+ }
+  
+ .box2{
+    
+    
+    animation: box2;
+    animation-duration: 1s;
+    position: relative;
+    animation-iteration-count: infinite;
+    margin: 50px;
+    color: blue;
+}
+
+
+@keyframes box2{
+  
+    0%{
+        left: 0px; top: 0px;
+    }
+    100%{
+        left: 300px; top: 0px;
+    }
+   
+ }.box3{
+    
+    animation: box3;
+    animation-duration: 1s;
+    position: relative;
+    animation-iteration-count: infinite;
+    margin: 50px;
+    color: green;
+}
+
+
+@keyframes box3{
+  
+    0%{
+        left: 0px; top: 0px;
+    }
+    100%{
+        left: 500px; top: 0px;
+    }
+   
+ }
+ .box4{
+    
+  
+    animation: box4;
+    animation-duration: 1s;
+    position: relative;
+    animation-iteration-count: infinite;
+    margin: 50px;
+    
+}
+
+
+@keyframes box4{
+  
+    0%{
+        left: 0px; top: 0px;
+    }
+    100%{
+        left: 250px; top: 0px;
+    }
+   
+ }
+ 
+ 
+.box5{
+    background-color: rgb(87, 62, 62);
+    height: 300px;
+    width:2000px ;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    position: bottom 0;;
+}

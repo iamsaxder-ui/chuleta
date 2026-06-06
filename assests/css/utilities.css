@@ -1,0 +1,42 @@
+
+body{
+     font-family: "Comic Neue", cursive;
+  font-weight: 300;
+  font-style: normal;
+  padding: 0px;
+  margin: 0px;
+}
+html{
+    box-sizing: border-box;
+}
+*,
+*:after
+*:before{
+box-sizing: inherit;
+}
+:root{
+    --main-color: #0b0191;
+    --secondary-color: #0a9cc0;
+    --orange: #ffffff;
+    --black: #000000;
+    --gray: #30364f;
+    --white: #ffffff;
+    --dark-gray: #414040;
+}
+.color{
+    background-color:var(--orange);
+}
+
+
+.center{
+    text-align: center;
+}
+h2 {
+    font-size: 2.4em;
+}
+p{
+    font-size: 1rem;
+    color: var(--dark-gray);
+
+    
+}

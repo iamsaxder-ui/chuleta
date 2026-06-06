@@ -1,0 +1,29 @@
+/*QUIENES SOMOS*/
+.quienes-somos{
+display: grid;
+grid-template-columns: auto auto;
+gap: 40px;
+padding-top: 10px;
+}
+.img-responsive{
+    width: 600px;
+    border: 1px solid var(--black);
+}
+.col ul li{
+list-style: none;
+}
+
+/*servicio*/
+
+.servicios {
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;   
+gap: 20px;
+row-gap: 20px;
+padding: 50px 15px;
+}
+.servicios .col{
+    border: 1px solid var(--gray);
+    border-radius: 5px;
+    padding: 10px;
+}

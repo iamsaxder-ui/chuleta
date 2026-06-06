@@ -1,0 +1,42 @@
+.nav{
+    background-color:var(--main-color);
+    margin: 0px;
+    justify-content: space-around;
+    align-items:first baseline;
+}
+.nav ul{
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+}
+.nav ul li{
+    list-style: none;
+}
+.nav ul li a{
+    color:  var(--white);
+    list-style: none;
+    text-decoration: none ;
+    transition:  0.3s;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: 18px;
+}
+
+.nav ul li  :hover{
+  background-color: var(--secondary-color)
+}
+.barra{
+display: flex;
+align-items: center;
+gap: 200px;
+
+}
+
+.lista{
+flex: 1;
+}
+
+.logo{
+   margin: 0px;
+   margin-left: 100px;
+}

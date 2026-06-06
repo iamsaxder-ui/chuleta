@@ -1,0 +1,28 @@
+/* carros */
+.carros { 
+    display: flex;
+    gap: 15px; }
+
+.carro { 
+    flex: 1; 
+    text-align: left; 
+    border: #3030307a 1px solid ;
+    border-radius: 10px; }
+
+.carro img { 
+    width: 100%; 
+    
+    }
+
+.carro h3 { 
+    font-size: 0.9rem; 
+    margin: 10px 0 5px; }
+
+.carro p { 
+    font-size: 0.75rem; 
+    color: #646262; }
+
+.precio { 
+    font-weight: bold; 
+    color: #313131; 
+    font-size: 0.8rem; }

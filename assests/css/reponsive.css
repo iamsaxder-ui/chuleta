@@ -1,0 +1,15 @@
+@media (max-width: 480px) {
+ .quienes-somos{
+display: grid;
+grid-template-columns:  auto;
+gap: 10px;
+
+}
+.img-responsive{
+    width: 100%;
+    border: 1px solid var(--black);
+
+h2 {
+    font-size: 2.4em;
+}
+}}

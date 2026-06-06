@@ -1,0 +1,39 @@
+/* Header */
+header {
+    background: #fff;
+    
+    border-bottom: 3px solid var(--primary-blue);
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 10px;
+}
+
+.logo { height: 70px; }
+.logo-2{height: 140px; }
+.nombre { font-weight: bold; color: var(--primary-blue); font-size: 1.2rem; }
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: var(--primary-blue);
+    padding: 5px 20px;
+    margin: 0;
+}
+
+nav ul { 
+    list-style: none; 
+    display: flex; 
+    margin: 0; padding: 0; }
+
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    font-size: 0.8rem;
+    font-weight: bold;}

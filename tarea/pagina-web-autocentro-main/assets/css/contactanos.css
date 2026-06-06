@@ -1,0 +1,81 @@
+
+/*contacto*//*contacto*/
+.title-header{
+ 
+    color: var(--white);
+    padding: 10px 30px;
+
+}
+.title-header h1{
+    font-size: 50px;
+    color: var(--dark-bg);
+   text-shadow: 2px 2px 4px var(--shadow)
+}
+.title-header p{
+    color: var(--dark-bg);
+    font-size: 20px;
+}
+.container-fluid{
+    width: 100%;
+
+}
+.contacto{
+    display: grid;
+grid-template-columns: 1fr 1fr;
+    padding: 30px 30px ;
+}
+
+input[type="text"],[type="email"]
+{
+   width: 100%;
+   border: 1px solid var(--dark-bg);
+   padding: 10px;
+   border-radius: 8px;
+
+}
+label{
+color: var(--black);
+font-size: 16px; 
+padding-top: 15px;
+}
+
+select{
+    width: 100%;
+    border: 1px solid var(--dark-bg); 
+    padding: 10px;
+    border-radius: 8px;
+    
+}
+textarea{
+      width: 100%;
+    border: 1px solid var(--dark-bg); 
+    padding: 10px;
+    border-radius: 8px;
+}
+input[type="submit"]
+{
+    background-color: var(--light-gray);
+    color: var(--black);
+    width: 100%;
+    padding: 20px;
+    border-radius: 15px;
+    
+}
+input[type="submit"]:hover{
+ background-color: var(--gray);
+    
+}
+
+
+
+
+
+.col{
+    padding: 30px 30px ;
+    
+}
+
+.resaltador{
+    color: rgb(24, 24, 107);
+}
+
