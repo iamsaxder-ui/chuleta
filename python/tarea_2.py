@@ -1,16 +1,16 @@
-# 1. Creamos la fábrica de juguetes (La Clase)
+# 1. Creamos La Clase
 class Juguete:
     def __init__(self, nombre, precio, cantidad):
         self.nombre = nombre
         self.precio = precio
         self.cantidad = cantidad
 
-    # Una función para calcular cuánto cuestan estos juguetes juntitos
+    # Una función para calcular cuánto cuesta todo
     def calcular_subtotal(self):
         return self.precio * self.cantidad
 
 
-# 2. Creamos la fábrica del carrito de compras
+# 2. Creamos el carrito de compras
 class CarritoDeCompras:
     def __init__(self):
         self.items = [] # El carrito empieza vacío
