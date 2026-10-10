@@ -13,7 +13,7 @@ class Juguete:
 # 2. Creamos el carrito de compras
 class CarritoDeCompras:
     def __init__(self):
-        self.items = [] # El carrito empieza vacío
+        self.items = [] # El carrito mpieza vacío
 
     def agregar_juguete(self, juguete):
         self.items.append(juguete) # Metemos el objeto juguete al carrito
