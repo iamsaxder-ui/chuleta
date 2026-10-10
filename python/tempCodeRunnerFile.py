@@ -1,0 +1,1 @@
+Si la función devuelve un objeto de conexión, la conexión 
